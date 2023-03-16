@@ -1,2 +1,5 @@
 # Elevator-System
-System of 5 elevators in a building of 10 floors
+System of 5 elevators in a building of 10 floors.
+In each floor has button. When button is clicked one of the elevators movev to target floor. 
+The project is build in react JS.
+

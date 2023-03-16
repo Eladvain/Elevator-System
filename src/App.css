@@ -1,0 +1,83 @@
+/* body{
+  height: 500px;
+  width: 700px;
+} */
+
+.App{
+  display: flex;
+  
+}
+
+.numbersFloors{
+  display: block;
+  height: 500px;
+  width: 100px;
+  
+}
+
+.numberFloor{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border: 0.3px solid yellow;
+  background-color: yellow;
+}
+
+.systemBuildings{
+  display: flex;
+  height: 500px;
+  width: 500px;
+  
+}
+
+.building-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  height: 500px;
+  width: 100px;
+}
+
+/* .name{
+  padding-top: 430px;
+  text-align: center;
+} */
+
+.floor-container{
+  height: 50px;
+  width: 100px;
+  border: 0.3px solid black;
+  background-color: aqua;
+  text-align: center;
+}
+
+#floorNum{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.systemButtons{
+  display: block;
+  height: 500px;
+  width: 100px;
+  
+}
+
+.elevatorButtonDiv{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border: 0.3px solid black;
+  background-color: yellow;
+}
+.elevatorButton-0,.elevatorButton-1, .elevatorButton-2, .elevatorButton-3, .elevatorButton-4, .elevatorButton-5,.elevatorButton-6, .elevatorButton-7, .elevatorButton-8, .elevatorButton-9{
+  text-align: center;
+  margin-top: 15px;
+  width: 60px;
+  background-color: green;
+  color: white;
+}
+
+.liftNumber-1, .liftNumber-2, .liftNumber-3, .liftNumber-4, .liftNumber-5{
+ 
+}
